@@ -3,4 +3,11 @@
     height: 10px;
     border: 1px solid black;
     background: blue;
+    animation: super-size 2s ease-in 4 alternate;
+}
+
+@keyframes super-size {
+    0% {width: 10px; height: 10px; background: blue;}
+    50% {width: 20px; height: 20px; background: red;}
+    100% {width: 50px; height: 50px; background: green;}
 }
