@@ -4,6 +4,7 @@
     border: 1px solid black;
     background: blue;
     animation: super-size 2s ease-in 4 alternate;
+    animation-fill-mode: both;
 }
 
 @keyframes super-size {
